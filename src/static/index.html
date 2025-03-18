@@ -39,6 +39,23 @@
           <button type="submit">Sign Up</button>
         </form>
         <div id="message" class="hidden"></div>
+
+        <h3>Remove Student from an Activity</h3>
+        <form id="remove-student-form">
+          <div class="form-group">
+        <label for="remove-email">Student Email:</label>
+        <input type="email" id="remove-email" required placeholder="your-email@mergington.edu" />
+          </div>
+          <div class="form-group">
+        <label for="remove-activity">Select Activity:</label>
+        <select id="remove-activity" required>
+          <option value="">-- Select an activity --</option>
+          <!-- Activity options will be loaded here -->
+        </select>
+          </div>
+          <button type="submit">Remove Student</button>
+        </form>
+        <div id="remove-message" class="hidden"></div>
       </section>
     </main>
 
