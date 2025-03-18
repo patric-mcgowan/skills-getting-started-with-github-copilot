@@ -72,6 +72,17 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.activity-card p strong {
+  color: #1a237e;
+}
+
+.activity-card p:last-of-type {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
 }
 
 .form-group {
